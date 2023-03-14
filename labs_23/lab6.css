@@ -2,15 +2,13 @@
 h2 {
   color: RebeccaPurple;
   text-align: center;
+  font-family: "Lucida Console";
 }
 body {
   background-color: LightSteelBlue;
 }
 p {
   color: DarkViolet;
-}
-.p1 {
-  font-family: "Lucida Console";
 }
 h1 {
   text-align: center;
