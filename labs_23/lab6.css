@@ -1,9 +1,16 @@
-/* <style> */
+
 h2 {
   color: RebeccaPurple;
   text-align: center;
   font-family: "Lucida Console";
 }
+h3 {
+  color: DarkViolet;
+  text-align: left;
+}
+/* table {
+  text-align: center;
+} */
 body {
   background-color: LightSteelBlue;
 }
@@ -13,4 +20,8 @@ p {
 h1 {
   text-align: center;
 }
-/* </style> */
+		table, th, td {
+			border: 1px solid black;
+			width: 50%;
+        background-color: PowderBlue;
+		}
