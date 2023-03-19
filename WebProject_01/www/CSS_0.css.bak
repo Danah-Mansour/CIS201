@@ -7,17 +7,12 @@ h3 {
   color: DarkViolet;
   text-align: left;
 }
- /* body {
+body {
   background-color: LightSteelBlue;
-} */
+}
 p {
   color: DarkViolet;
 }
 h1 {
   text-align: center;
-}
-log{
-height: 25%;
-width: 100%;
-background-color:green;
 }
