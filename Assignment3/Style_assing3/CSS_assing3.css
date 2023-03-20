@@ -1,1 +1,24 @@
+h2 {
+  color: RebeccaPurple;
+  text-align: center;
+  font-family: "Lucida Console";
+}
+h3 {
+  color: DarkViolet;
+  text-align: left;
+}
+ body {
+  background-color: LightSteelBlue;
+} 
+p {
+  color: DarkViolet;
+}
+h1 {
+  text-align: center;
+}
+header {
+  background-color: #594F59;
+  text-align: center;
+  padding: 20px;
+}
 
