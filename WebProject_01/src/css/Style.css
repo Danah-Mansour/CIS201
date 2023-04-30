@@ -1,0 +1,121 @@
+h2 {
+  color: RebeccaPurple;
+  text-align: center;
+  font-family: "Lucida Console";
+}
+h3 {
+  color: DarkViolet;
+  text-align: left;
+}
+body {
+  background-color: LightSteelBlue;
+}
+p {
+  color: DarkViolet;
+}
+h1 {
+  text-align: center;
+}
+ html{
+height: 100%;
+width: 100%;
+background-color:
+#D9C8BF;
+}
+
+header {
+  background-color: #594F59;
+  text-align: center;
+  padding: 20px;
+
+}
+log{
+height: 25px;
+width: 100%;
+background-color:red;
+}
+
+footer {
+  background-color: #BF2A52;
+  text-align: center;
+  padding: 10px;
+  height: 50%;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #A61B34;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #D9C8BF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
