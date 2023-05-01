@@ -1,20 +1,21 @@
 h2 {
-  color: RebeccaPurple;
+  color: #6ea88b;
   text-align: center;
   font-family: "Lucida Console";
 }
 h3 {
-  color: DarkViolet;
+  color: #d43d3d;
   text-align: left;
 }
-/* body {
-  background-color: LightSteelBlue;
-} */
+ body {
+  background-color: #fdebd8;
+}
 p {
-  color: DarkViolet;
+  color: #000000;
 }
 h1 {
   text-align: center;
+  color: #d43d3d;
 }
  html{
 height: 100%;
@@ -80,7 +81,7 @@ body {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 16px;
   border: none;
   outline: none;
   color: white;
@@ -91,7 +92,7 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #A61B34;
+  background-color: #eb7979;
 }
 
 .dropdown-content {
@@ -113,7 +114,7 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #6ea88b;
 }
 
 .dropdown:hover .dropdown-content {
