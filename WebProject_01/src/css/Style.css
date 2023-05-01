@@ -7,9 +7,9 @@ h3 {
   color: DarkViolet;
   text-align: left;
 }
-body {
+/* body {
   background-color: LightSteelBlue;
-}
+} */
 p {
   color: DarkViolet;
 }
@@ -80,7 +80,7 @@ body {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 16px;  
   border: none;
   outline: none;
   color: white;
