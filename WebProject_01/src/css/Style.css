@@ -1,17 +1,11 @@
-h2 {
-  color: #d43d3d;
-  text-align: center;
-  font-family: "Lucida Console";
-}
-h3 {
-  color: DarkViolet;
-  text-align: left;
-}
 /* body {
   background-color: LightSteelBlue;
 } */
 p {
-  color: DarkViolet;
+  color: #d43d3d;
+}
+il {
+  color: #6ea88b;
 }
 h1 {
   text-align: center;
