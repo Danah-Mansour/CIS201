@@ -7,9 +7,9 @@ p {
 li {
   color: #6ea88b;
 }
-h1 {
+/* h1 {
   text-align: center;
-}
+} */
  html{
 height: 100%;
 width: 100%;
@@ -22,11 +22,6 @@ header {
   text-align: center;
   padding: 20px;
 
-}
-log{
-height: 25px;
-width: 100%;
-background-color:red;
 }
 
 footer {
