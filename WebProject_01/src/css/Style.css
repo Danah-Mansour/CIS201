@@ -51,8 +51,10 @@ footer {
   clear: both;
 }
 body {
-  /* font-family: Arial, Helvetica; */
-  font-family: "Croissant One", Croissant+One;
+  font-family: Arial, Helvetica;
+}
+br{
+  padding:30px;
 }
 
 .navbar {
