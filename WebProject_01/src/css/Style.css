@@ -1,3 +1,8 @@
+html{
+height: 100%;
+width: 100%;
+background-color:#D9C8BF;
+}
  body {
   background-color: #fdebd8;
 }
@@ -6,11 +11,6 @@ table, th, td {
   border-collapse: collapse;
 }
 
-/* #imag-style
-{
-color: black;
-
-} */
 p {
   color: #d43d3d;
   padding-left:  16px;
@@ -20,15 +20,7 @@ h2 {
   color: #6ea88b;
   padding-left:  30px;
 }
-/* h1 {
-  text-align: center;
-} */
- html{
-height: 100%;
-width: 100%;
-background-color:
-#D9C8BF;
-}
+
 
 header {
   background-color: #FF908B;
@@ -43,10 +35,7 @@ footer {
   padding: 20px;
   height: 50%;
 }
-  /* table, tr, td, img
-{
-  text-align: center;
-} */
+
 
 /* Create three equal columns that floats next to each other */
 .column {
@@ -68,16 +57,18 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #333;
-
+  width: 100%;
+  display: inline-flex;
+  font-size: 16px;
 }
 
 .navbar a {
   float: left;
-  font-size: 16px;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+
 }
 
 .dropdown {
@@ -86,14 +77,16 @@ body {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;
+
   border: none;
   outline: none;
   color: white;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
+  font-size: inherit;
   margin: 0;
+
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
