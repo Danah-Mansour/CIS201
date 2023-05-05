@@ -18,7 +18,7 @@ p {
 }
 h2 {
   color: #6ea88b;
-  padding-left:  20px;
+  padding-left:  30px;
 }
 /* h1 {
   text-align: center;
@@ -68,6 +68,8 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #333;
+  display: inline-block;
+   position: relative;
 }
 
 .navbar a {
