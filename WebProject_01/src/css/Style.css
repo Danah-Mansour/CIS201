@@ -30,7 +30,7 @@ background-color:
 header {
   background-color: #594F59;
   text-align: center;
-  padding: 20px;
+  padding: 100px;
 
 }
 
@@ -47,7 +47,7 @@ footer {
 
 /* Create three equal columns that floats next to each other */
 .column {
-  float: left;
+  float: center;
   width: 100%;
   padding: 15px;
 }
