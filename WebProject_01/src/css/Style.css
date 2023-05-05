@@ -14,7 +14,7 @@ table, th, td {
 p {
   color: #d43d3d;
   padding-left:  16px;
-font-family: "Croissant One", Croissant+One;
+/* font-family: "Croissant One", Croissant+One; */
 }
 h2 {
   color: #6ea88b;
@@ -51,7 +51,8 @@ footer {
   clear: both;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica; */
+  font-family: "Croissant One", Croissant+One;
 }
 
 .navbar {
