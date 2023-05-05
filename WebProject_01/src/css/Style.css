@@ -5,6 +5,12 @@ table, th, td {
   border:1px solid black;
   border-collapse: collapse;
 }
+
+#imag-style
+{
+color: black;
+
+}
 p {
   color: #d43d3d;
 }
@@ -34,7 +40,10 @@ footer {
   padding: 10px;
   height: 50%;
 }
-
+  table, tr, td, img
+{
+  text-align: center;
+}
 
 /* Create three equal columns that floats next to each other */
 .column {
