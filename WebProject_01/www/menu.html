@@ -5,9 +5,26 @@
 
 			<title> Web desing poject </title>
 	<link type="text/css" rel="stylesheet" href="../src/css/Style.css" />
+	<header>
 
+	<img src="../src/img/stro cafe logo.png" alt="download .png" width="300px" height="200px">
+	   </header>
       </head>
 	<body>
+		<div class="navbar ">
+		  <a href="indx.html">Home</a>
+		  <a href="AboutMe.html">About</a>
+			<a href="cart.html">cart</a>
+		  <div class="dropdown">
+		    <button class="dropbtn">Project Page
+		    </button>
+		    <div class="dropdown-content" id= "mydrop">
+					<a href="menu.html">Menu</a>
+		      <a href="CONTACT.html">Contact us</a>
+		    </div>
+		  </div>
+		</div>
+
 			<h2>List of prodects </h2>
 					<hr></hr>
 		<h3>Here is the prodects that avaliable to buy</h3>
@@ -21,29 +38,31 @@
 	</tr>
 	 					<th>Strawberry milk</th>
 						<th><img src="../src/img/Strawberry milk.JPG" alt="download .png" width="150px" height="150px"></th>
-							<th>22 SA</th>
+							<th>22 SA <button class="add-to-cart js-add-to-cart btn">Add</button></th>
 							</tr>
 							<tr>
 <tr></tr>
 
 								 <th > Strawberry parfait </th>
 								 	<th><img src="../src/img/Strawberry parfait.JPG" alt="download .png" width="150px" height="150px"></th>
-								<th>28 SA </th>
+								<th>28 SA <button class="add-to-cart js-add-to-cart btn">Add</button> </th>
 							</tr>
 			<tr>
 				<th>Strawberry roll</th>
 				<th><img src="../src/img/Strawberry roll.JPG" alt="download .png" width="150px" height="150px"></th>
-				<th>23 SA</th>
+				<th>23 SA <button class="add-to-cart js-add-to-cart btn">Add</button></th>
 				</tr>
 
 					<tr>
 					<th>Strawberry Mahito </th>
 					<th><img src="../src/img/Strawberry Mahito.JPG" alt="download .png" width="150px" height="150px"></th>
-						<th>26 SA</th>
+						<th>26 SA <button class="add-to-cart js-add-to-cart btn">Add</button></th>
 						</tr>
 
+					</table>
 
 </form>
+
 Choose a prodect:
 <select name="prodect">
 	<option value="s m"> 	Strawberry milk  22 SA </option>
@@ -53,6 +72,12 @@ Choose a prodect:
 </select>
 	<form action="hello.html">
 	<input type="submit"  value="Submit"  />
-<form/>
+</form>
+
+
+
 		</body>
+		<script src="../src/js/JavaScript.js"></script>
 </html>
+<footer id="CopyWrite">
+</footer>
