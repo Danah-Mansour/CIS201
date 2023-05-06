@@ -1,7 +1,6 @@
 html{
 height: 100%;
 width: 100%;
-background-color:#D9C8BF;
 }
  body {
   background-color: #fdebd8;
@@ -13,7 +12,7 @@ table, th, td {
 
 p {
   color: #d43d3d;
-  padding-left:  16px;
+  /* padding-left:  16px; */
 /* font-family: "Croissant One", Croissant+One; */
 }
 h2 {
@@ -36,6 +35,7 @@ footer {
   height: 50%;
 }
 
+#CopyWrite{}
 
 /* Create three equal columns that floats next to each other */
 .column {
