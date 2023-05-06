@@ -124,3 +124,12 @@ br{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/* start cart */
+
+<link rel="stylesheet" href="../src/css/styles.css"> Header/NavBar +products css
+<link rel="stylesheet" href="../src/css/index.css"> Home Page css
+<link rel="stylesheet" href="../src/css/footer.css"> Footer
+<link rel="stylesheet" href="../src/css/about.css"> About me CSS
+<link rel="stylesheet" href="../src/css/cart.css"> Cart CSS
+
+/* end cart */
