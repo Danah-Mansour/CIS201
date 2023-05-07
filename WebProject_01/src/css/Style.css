@@ -4,6 +4,7 @@ width: 100%;
 }
  body {
   background-color: #fdebd8;
+
 }
 table, th, td {
   border:1px solid black;
@@ -12,12 +13,14 @@ table, th, td {
 
 p {
   color: #d43d3d;
-  /* padding-left:  16px; */
-/* font-family: "Croissant One", Croissant+One; */
-}
+   /* padding-left:  16px;
+ font-family: "Croissant One", Croissant+One;
+} */
 h2 {
   color: #6ea88b;
   padding-left:  30px;
+	font-size: 18px;
+}
 }
 h3 {
   color: #333;
@@ -53,9 +56,9 @@ footer {
   display: table;
   clear: both;
 }
-body {
+/* body {
   font-family: Arial, Helvetica;
-}
+} */
 br{
   padding:30px;
 }
@@ -66,6 +69,7 @@ br{
   width: 100%;
   display: inline-flex;
   font-size: 16px;
+    font-family: "Croissant One", Arial;
 }
 
 .navbar a {
@@ -125,11 +129,11 @@ br{
   display: block;
 }
 /* start cart */
-
+/*
 <link rel="stylesheet" href="../src/css/styles.css"> Header/NavBar +products css
 <link rel="stylesheet" href="../src/css/index.css"> Home Page css
 <link rel="stylesheet" href="../src/css/footer.css"> Footer
 <link rel="stylesheet" href="../src/css/about.css"> About me CSS
-<link rel="stylesheet" href="../src/css/cart.css"> Cart CSS
+<link rel="stylesheet" href="../src/css/cart.css"> Cart CSS */
 
 /* end cart */
