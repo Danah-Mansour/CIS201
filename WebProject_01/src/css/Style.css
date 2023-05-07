@@ -1,7 +1,7 @@
- html{
+ /* html{
 height: 100%;
 width: 100%;
-}
+} */
  body {
   background-color: #fdebd8;
 
@@ -16,6 +16,9 @@ p {
    padding-left:  16px;
  font-family: "Croissant One", Croissant+One;
 }
+/* .li {
+ font-family: "Croissant One", Croissant+One;
+} */
 h2 {
   color: #6ea88b;
   padding-left:  30px;
@@ -162,3 +165,6 @@ br{
   background-color: #6ea88b;
 
 }
+/* p2{
+     text-align: center;
+} */
