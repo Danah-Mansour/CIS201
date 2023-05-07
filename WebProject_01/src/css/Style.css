@@ -1,4 +1,4 @@
-html{
+ html{
 height: 100%;
 width: 100%;
 }
@@ -13,9 +13,9 @@ table, th, td {
 
 p {
   color: #d43d3d;
-   /* padding-left:  16px;
+   padding-left:  16px;
  font-family: "Croissant One", Croissant+One;
-} */
+}
 h2 {
   color: #6ea88b;
   padding-left:  30px;
@@ -41,24 +41,20 @@ footer {
   height: 50%;
 }
 
-#CopyWrite{}
 
-/* Create three equal columns that floats next to each other */
 .column {
   float: center;
   width: 100%;
   padding: 15px;
 }
 
-/* Clear floats after the columns */
+
 .row::after {
   content: "";
   display: table;
   clear: both;
 }
-/* body {
-  font-family: Arial, Helvetica;
-} */
+
 br{
   padding:30px;
 }
@@ -75,7 +71,7 @@ br{
 .navbar a {
   float: left;
   color: white;
-  text-align: center;
+   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 
@@ -105,7 +101,7 @@ br{
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  /* position: absolute; */
   background-color: #D9C8BF;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -128,12 +124,41 @@ br{
 .dropdown:hover .dropdown-content {
   display: block;
 }
-/* start cart */
-/*
-<link rel="stylesheet" href="../src/css/styles.css"> Header/NavBar +products css
-<link rel="stylesheet" href="../src/css/index.css"> Home Page css
-<link rel="stylesheet" href="../src/css/footer.css"> Footer
-<link rel="stylesheet" href="../src/css/about.css"> About me CSS
-<link rel="stylesheet" href="../src/css/cart.css"> Cart CSS */
 
-/* end cart */
+.container{
+    margin: auto;
+    margin-top: 20px;
+
+}
+.col-md-, .col-lg-4{
+    margin-bottom: 20px;
+}
+.sty{
+    font-size: 18px !important;
+    color: black !important;
+}
+.num{
+    width: 80px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+.uk-border-circle{
+    width: 100px !important;
+    height: 100px !important;
+}
+.fa-cart-arrow-down{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.btn-primary
+{
+  color: #fff;
+  background-color: #6ea88b;
+
+}
