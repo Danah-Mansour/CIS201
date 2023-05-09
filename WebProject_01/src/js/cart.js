@@ -1,16 +1,20 @@
+window.onload = function (){
+
+document.getElementById("CopyWrite").innerHTML = "All Rights Reserved to Al-Yamamah University.Copyright 2023";
+
+};
+
 let addToCartButtons = document.getElementsByClassName('btn-primary')
 let cartContainer = document.getElementsByTagName('tbody')[0]
 let quantityFields = document.getElementsByClassName('num')
 let delete_buttons = document.getElementsByClassName('uk-button-danger')
 
-// picking up all the Add-To-Cart buttons
+
 for(let i = 0; i < addToCartButtons.length; i++){
     addToCartButtons[i].addEventListener('click', addToCart)
-
 }
-// This function helps to add items to our cart
-function addToCart(event){
 
+function addToCart(event){
 
     let itemContainer = document.createElement('tr')
     let btn = event.target
@@ -35,29 +39,16 @@ function addToCart(event){
 
     cartContainer.append(itemContainer)
 
-
-
-
-    // Accessing individual quantity fields
     for(let i = 0; i < quantityFields.length; i++){
         quantityFields[i].value = 1
         quantityFields[i].addEventListener('change', totalCost)
-
     }
-
-    // Accessing individual quantity fields
     for(let i = 0; i < delete_buttons.length; i++){
         delete_buttons[i].addEventListener('click', removeItem)
     }
-
     grandTotal()
-
-
 }
 
-
-
-// This function helps to multiply the quantity and the price
 function totalCost(event){
     let quantity = event.target
     quantity_parent = quantity.parentElement.parentElement
@@ -69,12 +60,7 @@ function totalCost(event){
     if(isNaN(quantity.value)|| quantity.value <= 0){
         quantity.value = 1
     }
-
-
-
 }
-
-// This function helps to add up the total of the items
 function grandTotal(){
     let total = 0
     let grand_total = document.getElementsByClassName('grand-total')[0]
